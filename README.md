@@ -1,13 +1,13 @@
-#Solvo WMS Cutlogs
+# Solvo WMS Cutlogs
 
-##Tool for cutting WMS log for attach to bug-repotrs
+## Tool for cutting WMS log for attach to bug-repotrs
 
-####Command Line Arguments
+#### Command Line Arguments
 
 Example: python cutlogs.py -t "2022-06-29T18:20:18.503 140631464544000" -n wmsmc_server.log
 
 
-##How it work
+## How it work
 
 1. Cutlogs use linux grep for find actual log file.
 2. Then convert timestamp from arguments to log format timestamp.
