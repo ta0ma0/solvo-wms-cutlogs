@@ -8,7 +8,7 @@ from datetime import timedelta
 import time
 import os
 import sys
-import constants
+from constants import *
 
 
 work_dir_path = os.getcwd()
